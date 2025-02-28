@@ -54,7 +54,7 @@ driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
 try:
     # Open the website
     driver.get('https://mycutebaby.in/contest/participant/679e77f65b140')
-    driver.add_cookie({'name': 'PHPSESSID', 'value': '514cff72bc9f2d9c555334fd8a2be4c6'})
+    driver.add_cookie({'name': 'PHPSESSID', 'value': '30c0ada79f649c75bdec1315909ebc83'})
     time.sleep(2)
     # to refresh the page
     driver.refresh()
